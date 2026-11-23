@@ -4,6 +4,7 @@ public class TWO_transpose {
 	public static void main(String[] args) {
 		int[][] a= {{1,2,3},{4,5,6},{7,8,9}};
 		
+		//transpose of matrix only printing
 //		for(int r=0;r<a.length;r++) {
 //			for(int c=0;c<a[r].length;c++) {
 //				System.out.print(a[c][r]);
@@ -11,6 +12,8 @@ public class TWO_transpose {
 //			System.out.println();
 //		}
 		
+		
+		// inplace transpose of 2d matrix 
 		
 		for(int r=0;r<a.length;r++) {
 			for(int c=r+1;c<a[r].length;c++) {
